@@ -14,6 +14,8 @@
 		6D04EF21220C922E00C78569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D04EF1F220C922E00C78569 /* LaunchScreen.storyboard */; };
 		6D04EF2C220C922F00C78569 /* ExampleMVVMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D04EF2B220C922F00C78569 /* ExampleMVVMTests.swift */; };
 		6D04EF37220C922F00C78569 /* ExampleMVVMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D04EF36220C922F00C78569 /* ExampleMVVMUITests.swift */; };
+		6D04EF47220C943200C78569 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D04EF46220C943200C78569 /* Student.swift */; };
+		6D04EF49220C94AF00C78569 /* StudenteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D04EF48220C94AF00C78569 /* StudenteViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		6D04EF32220C922F00C78569 /* ExampleMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D04EF36220C922F00C78569 /* ExampleMVVMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleMVVMUITests.swift; sourceTree = "<group>"; };
 		6D04EF38220C922F00C78569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D04EF46220C943200C78569 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		6D04EF48220C94AF00C78569 /* StudenteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudenteViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		6D04EF15220C922C00C78569 /* ExampleMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6D04EF45220C93BA00C78569 /* ModelView */,
+				6D04EF44220C939F00C78569 /* Model */,
 				6D04EF16220C922C00C78569 /* AppDelegate.swift */,
 				6D04EF18220C922C00C78569 /* ViewController.swift */,
 				6D04EF1A220C922C00C78569 /* Main.storyboard */,
@@ -123,6 +129,22 @@
 				6D04EF38220C922F00C78569 /* Info.plist */,
 			);
 			path = ExampleMVVMUITests;
+			sourceTree = "<group>";
+		};
+		6D04EF44220C939F00C78569 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D04EF46220C943200C78569 /* Student.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D04EF45220C93BA00C78569 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				6D04EF48220C94AF00C78569 /* StudenteViewModel.swift */,
+			);
+			path = ModelView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +279,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D04EF19220C922C00C78569 /* ViewController.swift in Sources */,
+				6D04EF47220C943200C78569 /* Student.swift in Sources */,
+				6D04EF49220C94AF00C78569 /* StudenteViewModel.swift in Sources */,
 				6D04EF17220C922C00C78569 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
